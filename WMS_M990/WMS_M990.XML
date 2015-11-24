@@ -3,21 +3,21 @@
   <instance class="PJM">
     <rowset name="PjmDefn" size="2224" count="1">
       <row>
-        <szLastUpdDttm>2015-11-13-11.21.18.888121</szLastUpdDttm>
+        <szLastUpdDttm>2015-11-24-13.48.54.887317</szLastUpdDttm>
         <szLastUpdOprId>W1683396</szLastUpdOprId>
         <szObjectOwnerID></szObjectOwnerID>
         <nUseCount>1</nUseCount>
         <bUseUpdate>1</bUseUpdate>
-        <lVersion>6553</lVersion>
+        <lVersion>6573</lVersion>
         <lSwapVersion>0</lSwapVersion>
         <nSwapNum>0</nSwapNum>
-        <szProjectName>WMS_AEMAIL</szProjectName>
+        <szProjectName>WMS_M990</szProjectName>
         <szLanguageCd>ENG</szLanguageCd>
         <szProjectDescr></szProjectDescr>
         <szSrcDBName>CS12TST</szSrcDBName>
         <szSrcOprId>W1683396</szSrcOprId>
-        <szSessionId>b0012b73-8a4a-11e5-85ea-f7f87ffb10b8</szSessionId>
-        <szRunDtTm>2015-11-13-16.08.27.580704</szRunDtTm>
+        <szSessionId>0cc2de09-92dc-11e5-85ea-f7f87ffb10b8</szSessionId>
+        <szRunDtTm>2015-11-24-13.49.09.887597</szRunDtTm>
         <szTgtServerName></szTgtServerName>
         <szTgtDBName></szTgtDBName>
         <szTgtOprId></szTgtOprId>
@@ -34,12 +34,12 @@
         <szReleaseDttm></szReleaseDttm>
         <nDescrLongLen>0</nDescrLongLen>
         <hDescrLong>HANDLE</hDescrLong>
-        <nProjectCount>6</nProjectCount>
+        <nProjectCount>12</nProjectCount>
         <lpPit> POINTER
-          <rowset name="PjmPit" size="5136" count="6">
+          <rowset name="PjmPit" size="10272" count="12">
             <row>
               <eObjectType>0</eObjectType>
-              <szObjectValue_0>WMS_AEMAIL_AET</szObjectValue_0>
+              <szObjectValue_0>WMS_M990_AET</szObjectValue_0>
               <szObjectValue_1></szObjectValue_1>
               <szObjectValue_2></szObjectValue_2>
               <szObjectValue_3></szObjectValue_3>
@@ -52,12 +52,12 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>0</bCopyDone>
+              <bCopyDone>1</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
               <eObjectType>0</eObjectType>
-              <szObjectValue_0>WMS_RC_AEMAIL</szObjectValue_0>
+              <szObjectValue_0>WMS_RC_M990</szObjectValue_0>
               <szObjectValue_1></szObjectValue_1>
               <szObjectValue_2></szObjectValue_2>
               <szObjectValue_3></szObjectValue_3>
@@ -70,7 +70,43 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>0</bCopyDone>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>2</eObjectType>
+              <szObjectValue_0>WMS_POLL_INTERVAL</szObjectValue_0>
+              <szObjectValue_1></szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>6</eObjectID_0>
+              <eObjectID_1>0</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>2</eObjectType>
+              <szObjectValue_0>WMS_POLL_TRIES</szObjectValue_0>
+              <szObjectValue_1></szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>6</eObjectID_0>
+              <eObjectID_1>0</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
@@ -88,7 +124,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>0</bCopyDone>
+              <bCopyDone>1</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
@@ -99,6 +135,24 @@
               <szObjectValue_3></szObjectValue_3>
               <eObjectID_0>10</eObjectID_0>
               <eObjectID_1>39</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>20</eObjectType>
+              <szObjectValue_0>Application Engine</szObjectValue_0>
+              <szObjectValue_1>WMS_AE_M990</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>29</eObjectID_0>
+              <eObjectID_1>28</eObjectID_1>
               <eObjectID_2>0</eObjectID_2>
               <eObjectID_3>0</eObjectID_3>
               <bExecute>0</bExecute>
@@ -128,8 +182,62 @@
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
+              <eObjectType>25</eObjectType>
+              <szObjectValue_0>32000</szObjectValue_0>
+              <szObjectValue_1>2</szObjectValue_1>
+              <szObjectValue_2>WMS Report Emails</szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>48</eObjectID_0>
+              <eObjectID_1>49</eObjectID_1>
+              <eObjectID_2>50</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>0</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>25</eObjectType>
+              <szObjectValue_0>32000</szObjectValue_0>
+              <szObjectValue_1>3</szObjectValue_1>
+              <szObjectValue_2>WMS Report Emails</szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>48</eObjectID_0>
+              <eObjectID_1>49</eObjectID_1>
+              <eObjectID_2>50</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>0</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>25</eObjectType>
+              <szObjectValue_0>32000</szObjectValue_0>
+              <szObjectValue_1>4</szObjectValue_1>
+              <szObjectValue_2>WMS Report Emails</szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>48</eObjectID_0>
+              <eObjectID_1>49</eObjectID_1>
+              <eObjectID_2>50</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>0</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
               <eObjectType>33</eObjectType>
-              <szObjectValue_0>WMS_AEMAIL</szObjectValue_0>
+              <szObjectValue_0>WMS_AE_M990</szObjectValue_0>
               <szObjectValue_1></szObjectValue_1>
               <szObjectValue_2></szObjectValue_2>
               <szObjectValue_3></szObjectValue_3>
@@ -142,7 +250,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>0</bCopyDone>
+              <bCopyDone>1</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
           </rowset>
@@ -440,15 +548,15 @@
   <instance class="RDM">
     <rowset name="RecDefn" size="800" count="1">
       <row>
-        <szLastUpdDttm>2015-11-13-14.21.41.113222</szLastUpdDttm>
+        <szLastUpdDttm>2015-11-16-11.38.48.018017</szLastUpdDttm>
         <szLastUpdOprId>W1683396</szLastUpdOprId>
         <szObjectOwnerID></szObjectOwnerID>
         <nUseCount>1</nUseCount>
         <bUseUpdate>1</bUseUpdate>
-        <lVersion>183</lVersion>
-        <lSwapVersion>183</lSwapVersion>
+        <lVersion>186</lVersion>
+        <lSwapVersion>186</lSwapVersion>
         <nSwapNum>0</nSwapNum>
-        <szRecName>WMS_AEMAIL_AET</szRecName>
+        <szRecName>WMS_M990_AET</szRecName>
         <szLanguageCd>ENG</szLanguageCd>
         <fFlags>0</fFlags>
         <fAuxFlagMask>0</fAuxFlagMask>
@@ -519,7 +627,7 @@
               <atmRelTmDtFieldName></atmRelTmDtFieldName>
               <atmLongName>Process Instance</atmLongName>
               <atmShortName>Instance</atmShortName>
-              <atmPhysicalRecNameList>WMS_AEMAIL_AET     </atmPhysicalRecNameList>
+              <atmPhysicalRecNameList>WMS_M990_AET     </atmPhysicalRecNameList>
               <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
               <nContextLabelCount>0</nContextLabelCount>
             </row>
@@ -704,7 +812,7 @@
               <atmRelTmDtFieldName></atmRelTmDtFieldName>
               <atmLongName>User ID</atmLongName>
               <atmShortName>User</atmShortName>
-              <atmPhysicalRecNameList>WMS_AEMAIL_AET     </atmPhysicalRecNameList>
+              <atmPhysicalRecNameList>WMS_M990_AET     </atmPhysicalRecNameList>
               <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
               <nContextLabelCount>0</nContextLabelCount>
             </row>
@@ -781,7 +889,7 @@
               <atmRelTmDtFieldName></atmRelTmDtFieldName>
               <atmLongName>Run Control ID</atmLongName>
               <atmShortName>Run Cntl</atmShortName>
-              <atmPhysicalRecNameList>WMS_AEMAIL_AET     </atmPhysicalRecNameList>
+              <atmPhysicalRecNameList>WMS_M990_AET     </atmPhysicalRecNameList>
               <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
               <nContextLabelCount>0</nContextLabelCount>
             </row>
@@ -1288,19 +1396,19 @@
   <instance class="RDM">
     <rowset name="RecDefn" size="800" count="1">
       <row>
-        <szLastUpdDttm>2015-11-13-14.04.11.326674</szLastUpdDttm>
+        <szLastUpdDttm>2015-11-17-13.17.53.539667</szLastUpdDttm>
         <szLastUpdOprId>W1683396</szLastUpdOprId>
         <szObjectOwnerID></szObjectOwnerID>
         <nUseCount>1</nUseCount>
         <bUseUpdate>1</bUseUpdate>
-        <lVersion>182</lVersion>
-        <lSwapVersion>182</lSwapVersion>
+        <lVersion>197</lVersion>
+        <lSwapVersion>197</lSwapVersion>
         <nSwapNum>0</nSwapNum>
-        <szRecName>WMS_RC_AEMAIL</szRecName>
+        <szRecName>WMS_RC_M990</szRecName>
         <szLanguageCd>ENG</szLanguageCd>
         <fFlags>0</fFlags>
         <fAuxFlagMask>0</fAuxFlagMask>
-        <nFieldCount>8</nFieldCount>
+        <nFieldCount>12</nFieldCount>
         <eRecType>0</eRecType>
         <fRecUse>0</fRecUse>
         <cOptTrigFlag>N</cOptTrigFlag>
@@ -1317,7 +1425,7 @@
         <nDescrLongLen>0</nDescrLongLen>
         <hDescrLong>HANDLE</hDescrLong>
         <hRft> HANDLE
-          <rowset name="RecField" size="2400" count="8">
+          <rowset name="RecField" size="3600" count="12">
             <row>
               <fStatus>0</fStatus>
               <atmFieldName>RUN_CNTL_ID</atmFieldName>
@@ -1333,7 +1441,7 @@
               <nIMEMode>0</nIMEMode>
               <nKeyboardLayout>0</nKeyboardLayout>
               <szObjectOwnerID></szObjectOwnerID>
-              <szLastUpdDttm>2015-11-12-17.02.28.147614</szLastUpdDttm>
+              <szLastUpdDttm>2015-11-17-13.17.53.539705</szLastUpdDttm>
               <szLastUpdOprId>W1683396</szLastUpdOprId>
               <nDescrLongLen>0</nDescrLongLen>
               <hDescrLong>HANDLE</hDescrLong>
@@ -1379,8 +1487,8 @@
               <atmDefRecName></atmDefRecName>
               <atmDefFieldName></atmDefFieldName>
               <atmCurCtlFieldName></atmCurCtlFieldName>
-              <fUseEdit>8388608</fUseEdit>
-              <fUseEdit2>0</fUseEdit2>
+              <fUseEdit>8388609</fUseEdit>
+              <fUseEdit2>-65537</fUseEdit2>
               <atmEditTable></atmEditTable>
               <nDefGUICtl>99</nDefGUICtl>
               <atmSetCntrlFld></atmSetCntrlFld>
@@ -1391,7 +1499,7 @@
               <atmRelTmDtFieldName></atmRelTmDtFieldName>
               <atmLongName>Run Control ID</atmLongName>
               <atmShortName>Run Cntl</atmShortName>
-              <atmPhysicalRecNameList>WMS_RC_AEMAIL     </atmPhysicalRecNameList>
+              <atmPhysicalRecNameList>WMS_RC_M990     </atmPhysicalRecNameList>
               <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
               <nContextLabelCount>0</nContextLabelCount>
             </row>
@@ -1410,7 +1518,7 @@
               <nIMEMode>0</nIMEMode>
               <nKeyboardLayout>0</nKeyboardLayout>
               <szObjectOwnerID></szObjectOwnerID>
-              <szLastUpdDttm>2015-11-12-17.02.28.147614</szLastUpdDttm>
+              <szLastUpdDttm>2015-11-17-13.17.53.539705</szLastUpdDttm>
               <szLastUpdOprId>W1683396</szLastUpdOprId>
               <nDescrLongLen>0</nDescrLongLen>
               <hDescrLong>HANDLE</hDescrLong>
@@ -1564,8 +1672,8 @@
               <atmDefRecName></atmDefRecName>
               <atmDefFieldName></atmDefFieldName>
               <atmCurCtlFieldName></atmCurCtlFieldName>
-              <fUseEdit>8388608</fUseEdit>
-              <fUseEdit2>0</fUseEdit2>
+              <fUseEdit>8388609</fUseEdit>
+              <fUseEdit2>-65537</fUseEdit2>
               <atmEditTable></atmEditTable>
               <nDefGUICtl>99</nDefGUICtl>
               <atmSetCntrlFld></atmSetCntrlFld>
@@ -1576,7 +1684,7 @@
               <atmRelTmDtFieldName></atmRelTmDtFieldName>
               <atmLongName>User ID</atmLongName>
               <atmShortName>User</atmShortName>
-              <atmPhysicalRecNameList>WMS_RC_AEMAIL     </atmPhysicalRecNameList>
+              <atmPhysicalRecNameList>WMS_RC_M990     </atmPhysicalRecNameList>
               <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
               <nContextLabelCount>0</nContextLabelCount>
             </row>
@@ -1629,17 +1737,17 @@
               <atmRelTmDtFieldName></atmRelTmDtFieldName>
               <atmLongName>Parent Procses ID</atmLongName>
               <atmShortName>Parent ProcID</atmShortName>
-              <atmPhysicalRecNameList>WMS_RC_AEMAIL     </atmPhysicalRecNameList>
+              <atmPhysicalRecNameList>WMS_RC_M990     </atmPhysicalRecNameList>
               <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
               <nContextLabelCount>0</nContextLabelCount>
             </row>
             <row>
               <fStatus>0</fStatus>
-              <atmFieldName>WMS_EMAIL_URL</atmFieldName>
+              <atmFieldName>URL</atmFieldName>
               <eFieldType>0</eFieldType>
               <nLength>254</nLength>
               <nDecimalPos>0</nDecimalPos>
-              <eFormat>0</eFormat>
+              <eFormat>6</eFormat>
               <nFormatLength>0</nFormatLength>
               <eImgFmt>0</eImgFmt>
               <atmFormatFamily></atmFormatFamily>
@@ -1648,18 +1756,60 @@
               <nIMEMode>0</nIMEMode>
               <nKeyboardLayout>0</nKeyboardLayout>
               <szObjectOwnerID></szObjectOwnerID>
-              <szLastUpdDttm>2015-11-13-08.25.33.100916</szLastUpdDttm>
+              <szLastUpdDttm>2015-11-16-13.19.06.529327</szLastUpdDttm>
               <szLastUpdOprId>W1683396</szLastUpdOprId>
               <nDescrLongLen>0</nDescrLongLen>
               <hDescrLong>HANDLE</hDescrLong>
-              <nLabelCount>1</nLabelCount>
+              <nLabelCount>8</nLabelCount>
               <hDBFldLabel> HANDLE
-                <rowset name="DBFldLabel" size="16" count="1">
+                <rowset name="DBFldLabel" size="128" count="8">
                   <row>
-                    <atmLabelID>WMS_EMAIL_URL</atmLabelID>
-                    <atmLongName>Full URL Path for E-Mail</atmLongName>
-                    <atmShortName>Email URL</atmShortName>
+                    <atmLabelID>EOPPB_BASE_URL</atmLabelID>
+                    <atmLongName>Base URL</atmLongName>
+                    <atmShortName>URL</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>IB_LABEL</atmLabelID>
+                    <atmLongName>Gateway Logging URL</atmLongName>
+                    <atmShortName>Gateway Log</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>PTAI_URL</atmLabelID>
+                    <atmLongName>Target URL</atmLongName>
+                    <atmShortName>Target URL</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>PTPP_ BASE_URL</atmLabelID>
+                    <atmLongName>Base URL</atmLongName>
+                    <atmShortName>URL</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>SERVERURL</atmLabelID>
+                    <atmLongName>Server URL</atmLongName>
+                    <atmShortName>Server URL</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>URL</atmLabelID>
+                    <atmLongName>URLID</atmLongName>
+                    <atmShortName>URL</atmShortName>
                     <bIsDefault>1</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>URLNAME</atmLabelID>
+                    <atmLongName>URL</atmLongName>
+                    <atmShortName>URL</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>WIZARDURL</atmLabelID>
+                    <atmLongName>Wizard URL</atmLongName>
+                    <atmShortName>Wizard URL</atmShortName>
+                    <bIsDefault>0</bIsDefault>
                   </row>
                 </rowset>
               </hDBFldLabel>
@@ -1680,9 +1830,195 @@
               <atmTimeZoneFieldName></atmTimeZoneFieldName>
               <nCurrencyCtlUse>0</nCurrencyCtlUse>
               <atmRelTmDtFieldName></atmRelTmDtFieldName>
-              <atmLongName>Full URL Path for E-Mail</atmLongName>
-              <atmShortName>Email URL</atmShortName>
-              <atmPhysicalRecNameList>WMS_RC_AEMAIL     </atmPhysicalRecNameList>
+              <atmLongName>URLID</atmLongName>
+              <atmShortName>URL</atmShortName>
+              <atmPhysicalRecNameList>WMS_RC_M990     </atmPhysicalRecNameList>
+              <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+              <nContextLabelCount>0</nContextLabelCount>
+            </row>
+            <row>
+              <fStatus>0</fStatus>
+              <atmFieldName>CONTENTID</atmFieldName>
+              <eFieldType>2</eFieldType>
+              <nLength>15</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <eFormat>0</eFormat>
+              <nFormatLength>0</nFormatLength>
+              <eImgFmt>0</eImgFmt>
+              <atmFormatFamily></atmFormatFamily>
+              <atmDispFmtName></atmDispFmtName>
+              <nDefCntryYr>50</nDefCntryYr>
+              <nIMEMode>1</nIMEMode>
+              <nKeyboardLayout>0</nKeyboardLayout>
+              <szObjectOwnerID></szObjectOwnerID>
+              <szLastUpdDttm>2015-11-16-13.19.06.529327</szLastUpdDttm>
+              <szLastUpdOprId>W1683396</szLastUpdOprId>
+              <nDescrLongLen>0</nDescrLongLen>
+              <hDescrLong>HANDLE</hDescrLong>
+              <nLabelCount>2</nLabelCount>
+              <hDBFldLabel> HANDLE
+                <rowset name="DBFldLabel" size="32" count="2">
+                  <row>
+                    <atmLabelID>CONTENTID</atmLabelID>
+                    <atmLongName>Report ID</atmLongName>
+                    <atmShortName>Report ID</atmShortName>
+                    <bIsDefault>1</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>REPORTID</atmLabelID>
+                    <atmLongName>Report
+ID</atmLongName>
+                    <atmShortName>Report
+ID</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                </rowset>
+              </hDBFldLabel>
+              <nOrgLabelCount>0</nOrgLabelCount>
+              <hOrgDBFldLabel>HANDLE</hOrgDBFldLabel>
+              <nNotUsed>0</nNotUsed>
+              <fAuxFlagMask>0</fAuxFlagMask>
+              <atmDefRecName></atmDefRecName>
+              <atmDefFieldName></atmDefFieldName>
+              <atmCurCtlFieldName></atmCurCtlFieldName>
+              <fUseEdit>8388608</fUseEdit>
+              <fUseEdit2>0</fUseEdit2>
+              <atmEditTable></atmEditTable>
+              <nDefGUICtl>99</nDefGUICtl>
+              <atmSetCntrlFld></atmSetCntrlFld>
+              <atmLabelID></atmLabelID>
+              <nTimeZoneUse>0</nTimeZoneUse>
+              <atmTimeZoneFieldName></atmTimeZoneFieldName>
+              <nCurrencyCtlUse>0</nCurrencyCtlUse>
+              <atmRelTmDtFieldName></atmRelTmDtFieldName>
+              <atmLongName>Report ID</atmLongName>
+              <atmShortName>Report ID</atmShortName>
+              <atmPhysicalRecNameList>WMS_RC_M990     </atmPhysicalRecNameList>
+              <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+              <nContextLabelCount>0</nContextLabelCount>
+            </row>
+            <row>
+              <fStatus>0</fStatus>
+              <atmFieldName>FILENAME</atmFieldName>
+              <eFieldType>0</eFieldType>
+              <nLength>80</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <eFormat>6</eFormat>
+              <nFormatLength>0</nFormatLength>
+              <eImgFmt>0</eImgFmt>
+              <atmFormatFamily></atmFormatFamily>
+              <atmDispFmtName></atmDispFmtName>
+              <nDefCntryYr>50</nDefCntryYr>
+              <nIMEMode>0</nIMEMode>
+              <nKeyboardLayout>0</nKeyboardLayout>
+              <szObjectOwnerID></szObjectOwnerID>
+              <szLastUpdDttm>2015-11-16-13.19.54.529688</szLastUpdDttm>
+              <szLastUpdOprId>W1683396</szLastUpdOprId>
+              <nDescrLongLen>0</nDescrLongLen>
+              <hDescrLong>HANDLE</hDescrLong>
+              <nLabelCount>13</nLabelCount>
+              <hDBFldLabel> HANDLE
+                <rowset name="DBFldLabel" size="208" count="13">
+                  <row>
+                    <atmLabelID>ACCOUNT_CODE_LOAD</atmLabelID>
+                    <atmLongName>Account Code Load Parameters</atmLongName>
+                    <atmShortName>File Name</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>DOWNLOAD/UPLOADDAT</atmLabelID>
+                    <atmLongName>Download/Upload Data File</atmLongName>
+                    <atmShortName>Download/Upload</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>EXPORT</atmLabelID>
+                    <atmLongName>Export File Name</atmLongName>
+                    <atmShortName>Export File</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>FILENAME</atmLabelID>
+                    <atmLongName>File Name</atmLongName>
+                    <atmShortName>File Name</atmShortName>
+                    <bIsDefault>1</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>FILEUSAGE</atmLabelID>
+                    <atmLongName>Department FTE Report Params</atmLongName>
+                    <atmShortName>Report Params</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>INPUT</atmLabelID>
+                    <atmLongName>Input File Name</atmLongName>
+                    <atmShortName>Input File</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>INPUTFILENAME</atmLabelID>
+                    <atmLongName>Input File Name</atmLongName>
+                    <atmShortName>Input File Name</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>INPUT_DIR</atmLabelID>
+                    <atmLongName>Input Directory</atmLongName>
+                    <atmShortName>Input Dir</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>INPUT_FILE</atmLabelID>
+                    <atmLongName>Input File Name</atmLongName>
+                    <atmShortName>Input File</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>OUTPUT</atmLabelID>
+                    <atmLongName>Output File Name</atmLongName>
+                    <atmShortName>Output File</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>OUTPUTFILENAME</atmLabelID>
+                    <atmLongName>Output File Name</atmLongName>
+                    <atmShortName>Output File Nam</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>OUTPUT_FILE</atmLabelID>
+                    <atmLongName>Output File Name</atmLongName>
+                    <atmShortName>Output File</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>QFILENAME</atmLabelID>
+                    <atmLongName>File Name Query Field</atmLongName>
+                    <atmShortName>File Name Query</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                </rowset>
+              </hDBFldLabel>
+              <nOrgLabelCount>0</nOrgLabelCount>
+              <hOrgDBFldLabel>HANDLE</hOrgDBFldLabel>
+              <nNotUsed>0</nNotUsed>
+              <fAuxFlagMask>0</fAuxFlagMask>
+              <atmDefRecName></atmDefRecName>
+              <atmDefFieldName></atmDefFieldName>
+              <atmCurCtlFieldName></atmCurCtlFieldName>
+              <fUseEdit>8388608</fUseEdit>
+              <fUseEdit2>0</fUseEdit2>
+              <atmEditTable></atmEditTable>
+              <nDefGUICtl>99</nDefGUICtl>
+              <atmSetCntrlFld></atmSetCntrlFld>
+              <atmLabelID></atmLabelID>
+              <nTimeZoneUse>0</nTimeZoneUse>
+              <atmTimeZoneFieldName></atmTimeZoneFieldName>
+              <nCurrencyCtlUse>0</nCurrencyCtlUse>
+              <atmRelTmDtFieldName></atmRelTmDtFieldName>
+              <atmLongName>File Name</atmLongName>
+              <atmShortName>File Name</atmShortName>
+              <atmPhysicalRecNameList>WMS_RC_M990     </atmPhysicalRecNameList>
               <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
               <nContextLabelCount>0</nContextLabelCount>
             </row>
@@ -1747,7 +2083,7 @@
               <atmRelTmDtFieldName></atmRelTmDtFieldName>
               <atmLongName>Message Set Number</atmLongName>
               <atmShortName>Set</atmShortName>
-              <atmPhysicalRecNameList>WMS_RC_AEMAIL     </atmPhysicalRecNameList>
+              <atmPhysicalRecNameList>WMS_RC_M990     </atmPhysicalRecNameList>
               <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
               <nContextLabelCount>0</nContextLabelCount>
             </row>
@@ -1806,7 +2142,7 @@
               <atmRelTmDtFieldName></atmRelTmDtFieldName>
               <atmLongName>Message Number</atmLongName>
               <atmShortName>Msg</atmShortName>
-              <atmPhysicalRecNameList>WMS_RC_AEMAIL     </atmPhysicalRecNameList>
+              <atmPhysicalRecNameList>WMS_RC_M990     </atmPhysicalRecNameList>
               <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
               <nContextLabelCount>0</nContextLabelCount>
             </row>
@@ -1859,7 +2195,7 @@
               <atmRelTmDtFieldName></atmRelTmDtFieldName>
               <atmLongName>EMAIL_SENDER</atmLongName>
               <atmShortName>SENDER</atmShortName>
-              <atmPhysicalRecNameList>WMS_RC_AEMAIL     </atmPhysicalRecNameList>
+              <atmPhysicalRecNameList>WMS_RC_M990     </atmPhysicalRecNameList>
               <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
               <nContextLabelCount>0</nContextLabelCount>
             </row>
@@ -1930,14 +2266,152 @@
               <atmRelTmDtFieldName></atmRelTmDtFieldName>
               <atmLongName>EMAIL_TO</atmLongName>
               <atmShortName>TO</atmShortName>
-              <atmPhysicalRecNameList>WMS_RC_AEMAIL     </atmPhysicalRecNameList>
+              <atmPhysicalRecNameList>WMS_RC_M990     </atmPhysicalRecNameList>
+              <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+              <nContextLabelCount>0</nContextLabelCount>
+            </row>
+            <row>
+              <fStatus>0</fStatus>
+              <atmFieldName>WMS_POLL_INTERVAL</atmFieldName>
+              <eFieldType>2</eFieldType>
+              <nLength>3</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <eFormat>0</eFormat>
+              <nFormatLength>0</nFormatLength>
+              <eImgFmt>0</eImgFmt>
+              <atmFormatFamily></atmFormatFamily>
+              <atmDispFmtName></atmDispFmtName>
+              <nDefCntryYr>50</nDefCntryYr>
+              <nIMEMode>0</nIMEMode>
+              <nKeyboardLayout>0</nKeyboardLayout>
+              <szObjectOwnerID></szObjectOwnerID>
+              <szLastUpdDttm>2015-11-16-15.23.13.619589</szLastUpdDttm>
+              <szLastUpdOprId>W1683396</szLastUpdOprId>
+              <nDescrLongLen>0</nDescrLongLen>
+              <hDescrLong>HANDLE</hDescrLong>
+              <nLabelCount>1</nLabelCount>
+              <hDBFldLabel> HANDLE
+                <rowset name="DBFldLabel" size="16" count="1">
+                  <row>
+                    <atmLabelID>WMS_POLL_INTERVAL</atmLabelID>
+                    <atmLongName>Polling interval</atmLongName>
+                    <atmShortName>Poll Intv</atmShortName>
+                    <bIsDefault>1</bIsDefault>
+                  </row>
+                </rowset>
+              </hDBFldLabel>
+              <nOrgLabelCount>0</nOrgLabelCount>
+              <hOrgDBFldLabel>HANDLE</hOrgDBFldLabel>
+              <nNotUsed>0</nNotUsed>
+              <fAuxFlagMask>0</fAuxFlagMask>
+              <atmDefRecName></atmDefRecName>
+              <atmDefFieldName></atmDefFieldName>
+              <atmCurCtlFieldName></atmCurCtlFieldName>
+              <fUseEdit>8388608</fUseEdit>
+              <fUseEdit2>0</fUseEdit2>
+              <atmEditTable></atmEditTable>
+              <nDefGUICtl>99</nDefGUICtl>
+              <atmSetCntrlFld></atmSetCntrlFld>
+              <atmLabelID></atmLabelID>
+              <nTimeZoneUse>0</nTimeZoneUse>
+              <atmTimeZoneFieldName></atmTimeZoneFieldName>
+              <nCurrencyCtlUse>0</nCurrencyCtlUse>
+              <atmRelTmDtFieldName></atmRelTmDtFieldName>
+              <atmLongName>Polling interval</atmLongName>
+              <atmShortName>Poll Intv</atmShortName>
+              <atmPhysicalRecNameList>WMS_RC_M990     </atmPhysicalRecNameList>
+              <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+              <nContextLabelCount>0</nContextLabelCount>
+            </row>
+            <row>
+              <fStatus>0</fStatus>
+              <atmFieldName>WMS_POLL_TRIES</atmFieldName>
+              <eFieldType>2</eFieldType>
+              <nLength>3</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <eFormat>0</eFormat>
+              <nFormatLength>0</nFormatLength>
+              <eImgFmt>0</eImgFmt>
+              <atmFormatFamily></atmFormatFamily>
+              <atmDispFmtName></atmDispFmtName>
+              <nDefCntryYr>50</nDefCntryYr>
+              <nIMEMode>0</nIMEMode>
+              <nKeyboardLayout>0</nKeyboardLayout>
+              <szObjectOwnerID></szObjectOwnerID>
+              <szLastUpdDttm>2015-11-16-15.23.41.619765</szLastUpdDttm>
+              <szLastUpdOprId>W1683396</szLastUpdOprId>
+              <nDescrLongLen>0</nDescrLongLen>
+              <hDescrLong>HANDLE</hDescrLong>
+              <nLabelCount>1</nLabelCount>
+              <hDBFldLabel> HANDLE
+                <rowset name="DBFldLabel" size="16" count="1">
+                  <row>
+                    <atmLabelID>WMS_POLL_TRIES</atmLabelID>
+                    <atmLongName>Number of times to poll</atmLongName>
+                    <atmShortName>Nbr of Polls</atmShortName>
+                    <bIsDefault>1</bIsDefault>
+                  </row>
+                </rowset>
+              </hDBFldLabel>
+              <nOrgLabelCount>0</nOrgLabelCount>
+              <hOrgDBFldLabel>HANDLE</hOrgDBFldLabel>
+              <nNotUsed>0</nNotUsed>
+              <fAuxFlagMask>0</fAuxFlagMask>
+              <atmDefRecName></atmDefRecName>
+              <atmDefFieldName></atmDefFieldName>
+              <atmCurCtlFieldName></atmCurCtlFieldName>
+              <fUseEdit>8388608</fUseEdit>
+              <fUseEdit2>0</fUseEdit2>
+              <atmEditTable></atmEditTable>
+              <nDefGUICtl>99</nDefGUICtl>
+              <atmSetCntrlFld></atmSetCntrlFld>
+              <atmLabelID></atmLabelID>
+              <nTimeZoneUse>0</nTimeZoneUse>
+              <atmTimeZoneFieldName></atmTimeZoneFieldName>
+              <nCurrencyCtlUse>0</nCurrencyCtlUse>
+              <atmRelTmDtFieldName></atmRelTmDtFieldName>
+              <atmLongName>Number of times to poll</atmLongName>
+              <atmShortName>Nbr of Polls</atmShortName>
+              <atmPhysicalRecNameList>WMS_RC_M990     </atmPhysicalRecNameList>
               <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
               <nContextLabelCount>0</nContextLabelCount>
             </row>
           </rowset>
         </hRft>
-        <nIndexCount>0</nIndexCount>
-        <lpIdt>POINTER</lpIdt>
+        <nIndexCount>1</nIndexCount>
+        <lpIdt> POINTER
+          <rowset name="IndexDefn" size="704" count="1">
+            <row>
+              <cIndexId>_</cIndexId>
+              <eIndexType>1</eIndexType>
+              <eUniqueFlag>1</eUniqueFlag>
+              <eClusterFlag>1</eClusterFlag>
+              <eActiveFlag>1</eActiveFlag>
+              <nCustKeyOrder>0</nCustKeyOrder>
+              <szComments></szComments>
+              <ePlatformList>1 1 1 1 1 1 1 1 </ePlatformList>
+              <nKeyCount>2</nKeyCount>
+              <lpKdt> POINTER
+                <rowset name="KeyDefn" size="96" count="2">
+                  <row>
+                    <nKeyPosn>1</nKeyPosn>
+                    <szFieldName>RUN_CNTL_ID</szFieldName>
+                    <eAscDesc>1</eAscDesc>
+                  </row>
+                  <row>
+                    <nKeyPosn>2</nKeyPosn>
+                    <szFieldName>OPRID</szFieldName>
+                    <eAscDesc>1</eAscDesc>
+                  </row>
+                </rowset>
+              </lpKdt>
+              <nDDLCount>0</nDDLCount>
+              <lpIpt>POINTER</lpIpt>
+              <szLastUpdDttm>2015-11-17-13.17.53.539667</szLastUpdDttm>
+              <szLastUpdOprId>W1683396</szLastUpdOprId>
+            </row>
+          </rowset>
+        </lpIdt>
         <nDDLCount>0</nDDLCount>
         <lpRpt>POINTER</lpRpt>
         <nDelFieldCount>0</nDelFieldCount>
@@ -2029,20 +2503,20 @@
   <instance class="FIELD">
     <rowset name="Field" size="880" count="1">
       <row>
-        <szLastUpdDttm>2015-11-13-08.16.52.679918</szLastUpdDttm>
-        <szLastUpdOprId>W1683396</szLastUpdOprId>
-        <szObjectOwnerID></szObjectOwnerID>
+        <szLastUpdDttm>2014-08-02-09.34.15.459585</szLastUpdDttm>
+        <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+        <szObjectOwnerID>PPT</szObjectOwnerID>
         <nUseCount>1</nUseCount>
         <bUseUpdate>1</bUseUpdate>
-        <lVersion>170</lVersion>
+        <lVersion>1</lVersion>
         <lSwapVersion>0</lSwapVersion>
         <nSwapNum>0</nSwapNum>
-        <szFieldName>WMS_EMAIL_URL</szFieldName>
+        <szFieldName>URL</szFieldName>
         <szLanguageCd>ENG</szLanguageCd>
         <eFieldType>0</eFieldType>
         <nLength>254</nLength>
         <nDecimalPos>0</nDecimalPos>
-        <eFormat>0</eFormat>
+        <eFormat>6</eFormat>
         <nFormatLength>0</nFormatLength>
         <eImgFmt>0</eImgFmt>
         <szFormatFamily></szFormatFamily>
@@ -2052,18 +2526,94 @@
         <nKeyboardLayout>0</nKeyboardLayout>
         <nNotUsed>0</nNotUsed>
         <fAuxFlagMask>0</fAuxFlagMask>
-        <nDescrLongLen>0</nDescrLongLen>
-        <hDescrLong>HANDLE</hDescrLong>
-        <nLabelCount>1</nLabelCount>
-        <hDBFldLabel> HANDLE
-          <rowset name="DBFldLabel" size="260" count="1">
+        <nDescrLongLen>82</nDescrLongLen>
+        <hDescrLong> HANDLE
+          <rowset name="char" size="82" count="1">
             <row>
-              <szLabelID>WMS_EMAIL_URL</szLabelID>
-              <szLongName>Full URL Path for E-Mail</szLongName>
-              <szShortName>Email URL</szShortName>
+              <hDescrLong>Internet URL (Universal Resource Locator)</hDescrLong>
+            </row>
+          </rowset>
+        </hDescrLong>
+        <nLabelCount>8</nLabelCount>
+        <hDBFldLabel> HANDLE
+          <rowset name="DBFldLabel" size="2080" count="8">
+            <row>
+              <szLabelID>EOPPB_BASE_URL</szLabelID>
+              <szLongName>Base URL</szLongName>
+              <szShortName>URL</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2014-08-02-09.34.15.459585</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>IB_LABEL</szLabelID>
+              <szLongName>Gateway Logging URL</szLongName>
+              <szShortName>Gateway Log</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2014-08-02-09.34.15.459585</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>PTAI_URL</szLabelID>
+              <szLongName>Target URL</szLongName>
+              <szShortName>Target URL</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2014-08-02-09.34.15.459585</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>PTPP_ BASE_URL</szLabelID>
+              <szLongName>Base URL</szLongName>
+              <szShortName>URL</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2014-08-02-09.34.15.459585</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>SERVERURL</szLabelID>
+              <szLongName>Server URL</szLongName>
+              <szShortName>Server URL</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2014-08-02-09.34.15.459585</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>URL</szLabelID>
+              <szLongName>URLID</szLongName>
+              <szShortName>URL</szShortName>
               <bIsDefault>1</bIsDefault>
-              <szLastUpdDttm>2015-11-13-08.16.52.679918</szLastUpdDttm>
-              <szLastUpdOprId>W1683396</szLastUpdOprId>
+              <szLastUpdDttm>2014-08-02-09.34.15.459585</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>URLNAME</szLabelID>
+              <szLongName>URL</szLongName>
+              <szShortName>URL</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2014-08-02-09.34.15.459585</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>WIZARDURL</szLabelID>
+              <szLongName>Wizard URL</szLongName>
+              <szShortName>Wizard URL</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2014-08-02-09.34.15.459585</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
               <nLangCount>0</nLangCount>
               <hLang>HANDLE</hLang>
             </row>
@@ -2077,12 +2627,286 @@
         <szEditTable></szEditTable>
         <nDefGUICtl>0</nDefGUICtl>
         <szSetCntrlFld></szSetCntrlFld>
-        <szLabelID>WMS_EMAIL_URL</szLabelID>
+        <szLabelID>URL</szLabelID>
         <nTimeZoneUse>0</nTimeZoneUse>
         <szTimeZoneFieldName></szTimeZoneFieldName>
         <nCurrencyCtlUse>0</nCurrencyCtlUse>
-        <szLongName>Full URL Path for E-Mail</szLongName>
-        <szShortName>Email URL</szShortName>
+        <szLongName>URLID</szLongName>
+        <szShortName>URL</szShortName>
+        <fStatus>0</fStatus>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <nContextLabelCount>0</nContextLabelCount>
+        <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="FIELD">
+    <rowset name="Field" size="880" count="1">
+      <row>
+        <szLastUpdDttm>2014-08-02-09.30.03.460138</szLastUpdDttm>
+        <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+        <szObjectOwnerID>PPT</szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>1</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szFieldName>CONTENTID</szFieldName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <eFieldType>2</eFieldType>
+        <nLength>15</nLength>
+        <nDecimalPos>0</nDecimalPos>
+        <eFormat>0</eFormat>
+        <nFormatLength>0</nFormatLength>
+        <eImgFmt>0</eImgFmt>
+        <szFormatFamily></szFormatFamily>
+        <szDispFmtName></szDispFmtName>
+        <nDefCntryYr>50</nDefCntryYr>
+        <nIMEMode>1</nIMEMode>
+        <nKeyboardLayout>0</nKeyboardLayout>
+        <nNotUsed>0</nNotUsed>
+        <fAuxFlagMask>0</fAuxFlagMask>
+        <nDescrLongLen>60</nDescrLongLen>
+        <hDescrLong> HANDLE
+          <rowset name="char" size="60" count="1">
+            <row>
+              <hDescrLong>Report ID                     </hDescrLong>
+            </row>
+          </rowset>
+        </hDescrLong>
+        <nLabelCount>2</nLabelCount>
+        <hDBFldLabel> HANDLE
+          <rowset name="DBFldLabel" size="520" count="2">
+            <row>
+              <szLabelID>CONTENTID</szLabelID>
+              <szLongName>Report ID</szLongName>
+              <szShortName>Report ID</szShortName>
+              <bIsDefault>1</bIsDefault>
+              <szLastUpdDttm>2014-08-02-09.30.03.460138</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>REPORTID</szLabelID>
+              <szLongName>Report
+ID</szLongName>
+              <szShortName>Report
+ID</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2014-08-02-09.30.03.460138</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </hDBFldLabel>
+        <szDefRecName></szDefRecName>
+        <szDefFieldName></szDefFieldName>
+        <szCurCtlFieldName></szCurCtlFieldName>
+        <fUseEdit>0</fUseEdit>
+        <fUseEdit2>0</fUseEdit2>
+        <szEditTable></szEditTable>
+        <nDefGUICtl>0</nDefGUICtl>
+        <szSetCntrlFld></szSetCntrlFld>
+        <szLabelID>CONTENTID</szLabelID>
+        <nTimeZoneUse>0</nTimeZoneUse>
+        <szTimeZoneFieldName></szTimeZoneFieldName>
+        <nCurrencyCtlUse>0</nCurrencyCtlUse>
+        <szLongName>Report ID</szLongName>
+        <szShortName>Report ID</szShortName>
+        <fStatus>0</fStatus>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <nContextLabelCount>0</nContextLabelCount>
+        <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="FIELD">
+    <rowset name="Field" size="880" count="1">
+      <row>
+        <szLastUpdDttm>2014-08-02-09.30.26.459918</szLastUpdDttm>
+        <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+        <szObjectOwnerID>PPT</szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>1</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szFieldName>FILENAME</szFieldName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <eFieldType>0</eFieldType>
+        <nLength>80</nLength>
+        <nDecimalPos>0</nDecimalPos>
+        <eFormat>6</eFormat>
+        <nFormatLength>0</nFormatLength>
+        <eImgFmt>0</eImgFmt>
+        <szFormatFamily></szFormatFamily>
+        <szDispFmtName></szDispFmtName>
+        <nDefCntryYr>50</nDefCntryYr>
+        <nIMEMode>0</nIMEMode>
+        <nKeyboardLayout>0</nKeyboardLayout>
+        <nNotUsed>0</nNotUsed>
+        <fAuxFlagMask>0</fAuxFlagMask>
+        <nDescrLongLen>60</nDescrLongLen>
+        <hDescrLong> HANDLE
+          <rowset name="char" size="60" count="1">
+            <row>
+              <hDescrLong>File Name                     </hDescrLong>
+            </row>
+          </rowset>
+        </hDescrLong>
+        <nLabelCount>13</nLabelCount>
+        <hDBFldLabel> HANDLE
+          <rowset name="DBFldLabel" size="3380" count="13">
+            <row>
+              <szLabelID>ACCOUNT_CODE_LOAD</szLabelID>
+              <szLongName>Account Code Load Parameters</szLongName>
+              <szShortName>File Name</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2014-08-02-09.30.26.459918</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>DOWNLOAD/UPLOADDAT</szLabelID>
+              <szLongName>Download/Upload Data File</szLongName>
+              <szShortName>Download/Upload</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2014-08-02-09.30.26.459918</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>EXPORT</szLabelID>
+              <szLongName>Export File Name</szLongName>
+              <szShortName>Export File</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2014-08-02-09.30.26.459918</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>FILENAME</szLabelID>
+              <szLongName>File Name</szLongName>
+              <szShortName>File Name</szShortName>
+              <bIsDefault>1</bIsDefault>
+              <szLastUpdDttm>2014-08-02-09.30.26.459918</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>FILEUSAGE</szLabelID>
+              <szLongName>Department FTE Report Params</szLongName>
+              <szShortName>Report Params</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2014-08-02-09.30.26.459918</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>INPUT</szLabelID>
+              <szLongName>Input File Name</szLongName>
+              <szShortName>Input File</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2014-08-02-09.30.26.459918</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>INPUTFILENAME</szLabelID>
+              <szLongName>Input File Name</szLongName>
+              <szShortName>Input File Name</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2014-08-02-09.30.26.459918</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>INPUT_DIR</szLabelID>
+              <szLongName>Input Directory</szLongName>
+              <szShortName>Input Dir</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2014-08-02-09.30.26.459918</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>INPUT_FILE</szLabelID>
+              <szLongName>Input File Name</szLongName>
+              <szShortName>Input File</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2014-08-02-09.30.26.459918</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>OUTPUT</szLabelID>
+              <szLongName>Output File Name</szLongName>
+              <szShortName>Output File</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2014-08-02-09.30.26.459918</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>OUTPUTFILENAME</szLabelID>
+              <szLongName>Output File Name</szLongName>
+              <szShortName>Output File Nam</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2014-08-02-09.30.26.459918</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>OUTPUT_FILE</szLabelID>
+              <szLongName>Output File Name</szLongName>
+              <szShortName>Output File</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2014-08-02-09.30.26.459918</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>QFILENAME</szLabelID>
+              <szLongName>File Name Query Field</szLongName>
+              <szShortName>File Name Query</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2014-08-02-09.30.26.459918</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </hDBFldLabel>
+        <szDefRecName></szDefRecName>
+        <szDefFieldName></szDefFieldName>
+        <szCurCtlFieldName></szCurCtlFieldName>
+        <fUseEdit>0</fUseEdit>
+        <fUseEdit2>0</fUseEdit2>
+        <szEditTable></szEditTable>
+        <nDefGUICtl>0</nDefGUICtl>
+        <szSetCntrlFld></szSetCntrlFld>
+        <szLabelID>FILENAME</szLabelID>
+        <nTimeZoneUse>0</nTimeZoneUse>
+        <szTimeZoneFieldName></szTimeZoneFieldName>
+        <nCurrencyCtlUse>0</nCurrencyCtlUse>
+        <szLongName>File Name</szLongName>
+        <szShortName>File Name</szShortName>
         <fStatus>0</fStatus>
         <nLangCount>0</nLangCount>
         <hLang>HANDLE</hLang>
@@ -2435,6 +3259,136 @@
       </row>
     </rowset>
   </instance>
+  <instance class="FIELD">
+    <rowset name="Field" size="880" count="1">
+      <row>
+        <szLastUpdDttm>2015-11-16-15.21.40.317113</szLastUpdDttm>
+        <szLastUpdOprId>W1683396</szLastUpdOprId>
+        <szObjectOwnerID></szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>192</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szFieldName>WMS_POLL_INTERVAL</szFieldName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <eFieldType>2</eFieldType>
+        <nLength>3</nLength>
+        <nDecimalPos>0</nDecimalPos>
+        <eFormat>0</eFormat>
+        <nFormatLength>0</nFormatLength>
+        <eImgFmt>0</eImgFmt>
+        <szFormatFamily></szFormatFamily>
+        <szDispFmtName></szDispFmtName>
+        <nDefCntryYr>50</nDefCntryYr>
+        <nIMEMode>0</nIMEMode>
+        <nKeyboardLayout>0</nKeyboardLayout>
+        <nNotUsed>0</nNotUsed>
+        <fAuxFlagMask>0</fAuxFlagMask>
+        <nDescrLongLen>0</nDescrLongLen>
+        <hDescrLong>HANDLE</hDescrLong>
+        <nLabelCount>1</nLabelCount>
+        <hDBFldLabel> HANDLE
+          <rowset name="DBFldLabel" size="260" count="1">
+            <row>
+              <szLabelID>WMS_POLL_INTERVAL</szLabelID>
+              <szLongName>Polling interval</szLongName>
+              <szShortName>Poll Intv</szShortName>
+              <bIsDefault>1</bIsDefault>
+              <szLastUpdDttm>2015-11-16-15.21.40.317113</szLastUpdDttm>
+              <szLastUpdOprId>W1683396</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </hDBFldLabel>
+        <szDefRecName></szDefRecName>
+        <szDefFieldName></szDefFieldName>
+        <szCurCtlFieldName></szCurCtlFieldName>
+        <fUseEdit>0</fUseEdit>
+        <fUseEdit2>0</fUseEdit2>
+        <szEditTable></szEditTable>
+        <nDefGUICtl>0</nDefGUICtl>
+        <szSetCntrlFld></szSetCntrlFld>
+        <szLabelID>WMS_POLL_INTERVAL</szLabelID>
+        <nTimeZoneUse>0</nTimeZoneUse>
+        <szTimeZoneFieldName></szTimeZoneFieldName>
+        <nCurrencyCtlUse>0</nCurrencyCtlUse>
+        <szLongName>Polling interval</szLongName>
+        <szShortName>Poll Intv</szShortName>
+        <fStatus>0</fStatus>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <nContextLabelCount>0</nContextLabelCount>
+        <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="FIELD">
+    <rowset name="Field" size="880" count="1">
+      <row>
+        <szLastUpdDttm>2015-11-16-15.23.12.445392</szLastUpdDttm>
+        <szLastUpdOprId>W1683396</szLastUpdOprId>
+        <szObjectOwnerID></szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>193</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szFieldName>WMS_POLL_TRIES</szFieldName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <eFieldType>2</eFieldType>
+        <nLength>3</nLength>
+        <nDecimalPos>0</nDecimalPos>
+        <eFormat>0</eFormat>
+        <nFormatLength>0</nFormatLength>
+        <eImgFmt>0</eImgFmt>
+        <szFormatFamily></szFormatFamily>
+        <szDispFmtName></szDispFmtName>
+        <nDefCntryYr>50</nDefCntryYr>
+        <nIMEMode>0</nIMEMode>
+        <nKeyboardLayout>0</nKeyboardLayout>
+        <nNotUsed>0</nNotUsed>
+        <fAuxFlagMask>0</fAuxFlagMask>
+        <nDescrLongLen>0</nDescrLongLen>
+        <hDescrLong>HANDLE</hDescrLong>
+        <nLabelCount>1</nLabelCount>
+        <hDBFldLabel> HANDLE
+          <rowset name="DBFldLabel" size="260" count="1">
+            <row>
+              <szLabelID>WMS_POLL_TRIES</szLabelID>
+              <szLongName>Number of times to poll</szLongName>
+              <szShortName>Nbr of Polls</szShortName>
+              <bIsDefault>1</bIsDefault>
+              <szLastUpdDttm>2015-11-16-15.23.12.445392</szLastUpdDttm>
+              <szLastUpdOprId>W1683396</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </hDBFldLabel>
+        <szDefRecName></szDefRecName>
+        <szDefFieldName></szDefFieldName>
+        <szCurCtlFieldName></szCurCtlFieldName>
+        <fUseEdit>0</fUseEdit>
+        <fUseEdit2>0</fUseEdit2>
+        <szEditTable></szEditTable>
+        <nDefGUICtl>0</nDefGUICtl>
+        <szSetCntrlFld></szSetCntrlFld>
+        <szLabelID>WMS_POLL_TRIES</szLabelID>
+        <nTimeZoneUse>0</nTimeZoneUse>
+        <szTimeZoneFieldName></szTimeZoneFieldName>
+        <nCurrencyCtlUse>0</nCurrencyCtlUse>
+        <szLongName>Number of times to poll</szLongName>
+        <szShortName>Nbr of Polls</szShortName>
+        <fStatus>0</fStatus>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <nContextLabelCount>0</nContextLabelCount>
+        <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+      </row>
+    </rowset>
+  </instance>
   <instance class="PGM">
     <rowset name="PgmDefn" size="648" count="1">
       <row>
@@ -2529,18 +3483,288 @@
       </row>
     </rowset>
   </instance>
+  <instance class="PSD">
+    <rowset name="PsdDefn" size="3416" count="1">
+      <row>
+        <szLastUpdDttm>2015-11-16-13.42.40.000000</szLastUpdDttm>
+        <szLastUpdOprId>W1683396</szLastUpdOprId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>171</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szPrcsType>Application Engine</szPrcsType>
+        <szPrcsName>WMS_AE_M990</szPrcsName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <szParmList></szParmList>
+        <eParmListType>0</eParmListType>
+        <szParmListType>0</szParmListType>
+        <szCmdLine></szCmdLine>
+        <eCmdLineType>0</eCmdLineType>
+        <szCmdLineType>0</szCmdLineType>
+        <szWorkingDir></szWorkingDir>
+        <eWorkingDirType>0</eWorkingDirType>
+        <szWorkingDirType>0</szWorkingDirType>
+        <bSQRRunTime>0</bSQRRunTime>
+        <szSQRRunTime>0</szSQRRunTime>
+        <bLogRqst>1</bLogRqst>
+        <szLogRqst>1</szLogRqst>
+        <bAPIAware>1</bAPIAware>
+        <szAPIAware>1</szAPIAware>
+        <bReadOnly>0</bReadOnly>
+        <szReadOnly>0</szReadOnly>
+        <eOutDestSrc>3</eOutDestSrc>
+        <szOutDestSrc>3</szOutDestSrc>
+        <eOutDestType>0</eOutDestType>
+        <szOutDestType>0</szOutDestType>
+        <szOutputDest></szOutputDest>
+        <nPriority>5</nPriority>
+        <szPriority>5</szPriority>
+        <eRunLocation>2</eRunLocation>
+        <szRunLocation>2</szRunLocation>
+        <szServerName>PSUNXSS</szServerName>
+        <szShellId></szShellId>
+        <szMsgLogTable></szMsgLogTable>
+        <szRqstTable></szRqstTable>
+        <szRecurName></szRecurName>
+        <szOutDestFormat>0</szOutDestFormat>
+        <eOutDestFormat>0</eOutDestFormat>
+        <nRetentionDays>0</nRetentionDays>
+        <nPrcsRetentionDays>0</nPrcsRetentionDays>
+        <szPortalFolderName></szPortalFolderName>
+        <szDescr>Email on posting</szDescr>
+        <szPrcsTypeDescr></szPrcsTypeDescr>
+        <szRecvryPrcsType></szRecvryPrcsType>
+        <szRecvryPrcsName></szRecvryPrcsName>
+        <bRestartEnabled>1</bRestartEnabled>
+        <szRestartEnabled>1</szRestartEnabled>
+        <szPrcsFileName></szPrcsFileName>
+        <szPrcsCategory>Default</szPrcsCategory>
+        <bFileDepend>0</bFileDepend>
+        <szFileDepend>0</szFileDepend>
+        <nRetryCount>0</nRetryCount>
+        <nTimeOutMinutes>0</nTimeOutMinutes>
+        <nMaxConcurrent>0</nMaxConcurrent>
+        <nTimeOutMaxMins>0</nTimeOutMaxMins>
+        <nPrcsShowUrl>0</nPrcsShowUrl>
+        <szPrcsEnGenRunCntl>N</szPrcsEnGenRunCntl>
+        <bPrcsEnGenRunCntl>0</bPrcsEnGenRunCntl>
+        <szPrcsRunCntlSec>0</szPrcsRunCntlSec>
+        <ePrcsRunCntlSec>0</ePrcsRunCntlSec>
+        <nPrcsGrpCount>1</nPrcsGrpCount>
+        <lpPrcsGrpList> POINTER
+          <rowset name="PsdPrcsGrp" size="62" count="1">
+            <row>
+              <szPrcsGrp>SAALL</szPrcsGrp>
+            </row>
+          </rowset>
+        </lpPrcsGrpList>
+        <nPnlGrpCount>0</nPnlGrpCount>
+        <lpPnlGrpList>POINTER</lpPnlGrpList>
+        <nXferCount>0</nXferCount>
+        <lpPrcsXfer>POINTER</lpPrcsXfer>
+        <nDescrLongLen>194</nDescrLongLen>
+        <lpszDescrLong> POINTER
+          <rowset name="char" size="194" count="1">
+            <row>
+              <lpszDescrLong>This app engine will email a link to a file after the process that generated the file has posted.</lpszDescrLong>
+            </row>
+          </rowset>
+        </lpszDescrLong>
+        <nPrcsDefnNotifyCount>0</nPrcsDefnNotifyCount>
+        <lpPrcsDefnNotify>POINTER</lpPrcsDefnNotify>
+        <nPrcsDefnCntDistCount>0</nPrcsDefnCntDistCount>
+        <lpPrcsDefnCntDist>POINTER</lpPrcsDefnCntDist>
+        <nPrcsDefnMessageCount>3</nPrcsDefnMessageCount>
+        <lpPrcsDefnMessage> POINTER
+          <rowset name="PsdMessage" size="1632" count="3">
+            <row>
+              <szPrcsEventType>1</szPrcsEventType>
+              <ePrcsEventType>1</ePrcsEventType>
+              <szSchdlMsgType>0</szSchdlMsgType>
+              <eSchdlMsgType>0</eSchdlMsgType>
+              <lMessageSetNbr>0</lMessageSetNbr>
+              <lMessageNbr>0</lMessageNbr>
+              <szMessageText></szMessageText>
+            </row>
+            <row>
+              <szPrcsEventType>2</szPrcsEventType>
+              <ePrcsEventType>2</ePrcsEventType>
+              <szSchdlMsgType>0</szSchdlMsgType>
+              <eSchdlMsgType>0</eSchdlMsgType>
+              <lMessageSetNbr>0</lMessageSetNbr>
+              <lMessageNbr>0</lMessageNbr>
+              <szMessageText></szMessageText>
+            </row>
+            <row>
+              <szPrcsEventType>3</szPrcsEventType>
+              <ePrcsEventType>3</ePrcsEventType>
+              <szSchdlMsgType>0</szSchdlMsgType>
+              <eSchdlMsgType>0</eSchdlMsgType>
+              <lMessageSetNbr>0</lMessageSetNbr>
+              <lMessageNbr>0</lMessageNbr>
+              <szMessageText></szMessageText>
+            </row>
+          </rowset>
+        </lpPrcsDefnMessage>
+        <nMetaCount>0</nMetaCount>
+        <lpPrcsDefnMeta>POINTER</lpPrcsDefnMeta>
+        <nPrcsDefnUrlCount>0</nPrcsDefnUrlCount>
+        <lpPrcsDefnUrlList>POINTER</lpPrcsDefnUrlList>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <nPrcsDefnRunCntlParamCount>0</nPrcsDefnRunCntlParamCount>
+        <lpPrcsDefnRunCntlParamList>POINTER</lpPrcsDefnRunCntlParamList>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="PSD844">
+    <rowset name="PsdDefn" size="3416" count="1">
+      <row>
+        <szLastUpdDttm>2015-11-16-13.42.40.000000</szLastUpdDttm>
+        <szLastUpdOprId>W1683396</szLastUpdOprId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>171</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szPrcsType>Application Engine</szPrcsType>
+        <szPrcsName>WMS_AE_M990</szPrcsName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <szParmList></szParmList>
+        <eParmListType>0</eParmListType>
+        <szParmListType>0</szParmListType>
+        <szCmdLine></szCmdLine>
+        <eCmdLineType>0</eCmdLineType>
+        <szCmdLineType>0</szCmdLineType>
+        <szWorkingDir></szWorkingDir>
+        <eWorkingDirType>0</eWorkingDirType>
+        <szWorkingDirType>0</szWorkingDirType>
+        <bSQRRunTime>0</bSQRRunTime>
+        <szSQRRunTime>0</szSQRRunTime>
+        <bLogRqst>1</bLogRqst>
+        <szLogRqst>1</szLogRqst>
+        <bAPIAware>1</bAPIAware>
+        <szAPIAware>1</szAPIAware>
+        <bReadOnly>0</bReadOnly>
+        <szReadOnly>0</szReadOnly>
+        <eOutDestSrc>3</eOutDestSrc>
+        <szOutDestSrc>3</szOutDestSrc>
+        <eOutDestType>0</eOutDestType>
+        <szOutDestType>0</szOutDestType>
+        <szOutputDest></szOutputDest>
+        <nPriority>5</nPriority>
+        <szPriority>5</szPriority>
+        <eRunLocation>2</eRunLocation>
+        <szRunLocation>2</szRunLocation>
+        <szServerName>PSUNXSS</szServerName>
+        <szShellId></szShellId>
+        <szMsgLogTable></szMsgLogTable>
+        <szRqstTable></szRqstTable>
+        <szRecurName></szRecurName>
+        <szOutDestFormat>0</szOutDestFormat>
+        <eOutDestFormat>0</eOutDestFormat>
+        <nRetentionDays>0</nRetentionDays>
+        <nPrcsRetentionDays>0</nPrcsRetentionDays>
+        <szPortalFolderName></szPortalFolderName>
+        <szDescr>Email on posting</szDescr>
+        <szPrcsTypeDescr></szPrcsTypeDescr>
+        <szRecvryPrcsType></szRecvryPrcsType>
+        <szRecvryPrcsName></szRecvryPrcsName>
+        <bRestartEnabled>1</bRestartEnabled>
+        <szRestartEnabled>1</szRestartEnabled>
+        <szPrcsFileName></szPrcsFileName>
+        <szPrcsCategory>Default</szPrcsCategory>
+        <bFileDepend>0</bFileDepend>
+        <szFileDepend>0</szFileDepend>
+        <nRetryCount>0</nRetryCount>
+        <nTimeOutMinutes>0</nTimeOutMinutes>
+        <nMaxConcurrent>0</nMaxConcurrent>
+        <nTimeOutMaxMins>0</nTimeOutMaxMins>
+        <nPrcsShowUrl>0</nPrcsShowUrl>
+        <szPrcsEnGenRunCntl>N</szPrcsEnGenRunCntl>
+        <bPrcsEnGenRunCntl>0</bPrcsEnGenRunCntl>
+        <szPrcsRunCntlSec>0</szPrcsRunCntlSec>
+        <ePrcsRunCntlSec>0</ePrcsRunCntlSec>
+        <nPrcsGrpCount>1</nPrcsGrpCount>
+        <lpPrcsGrpList> POINTER
+          <rowset name="PsdPrcsGrp" size="62" count="1">
+            <row>
+              <szPrcsGrp>SAALL</szPrcsGrp>
+            </row>
+          </rowset>
+        </lpPrcsGrpList>
+        <nPnlGrpCount>0</nPnlGrpCount>
+        <lpPnlGrpList>POINTER</lpPnlGrpList>
+        <nXferCount>0</nXferCount>
+        <lpPrcsXfer>POINTER</lpPrcsXfer>
+        <nDescrLongLen>194</nDescrLongLen>
+        <lpszDescrLong> POINTER
+          <rowset name="char" size="194" count="1">
+            <row>
+              <lpszDescrLong>This app engine will email a link to a file after the process that generated the file has posted.</lpszDescrLong>
+            </row>
+          </rowset>
+        </lpszDescrLong>
+        <nPrcsDefnNotifyCount>0</nPrcsDefnNotifyCount>
+        <lpPrcsDefnNotify>POINTER</lpPrcsDefnNotify>
+        <nPrcsDefnCntDistCount>0</nPrcsDefnCntDistCount>
+        <lpPrcsDefnCntDist>POINTER</lpPrcsDefnCntDist>
+        <nPrcsDefnMessageCount>3</nPrcsDefnMessageCount>
+        <lpPrcsDefnMessage> POINTER
+          <rowset name="PsdMessage" size="1632" count="3">
+            <row>
+              <szPrcsEventType>1</szPrcsEventType>
+              <ePrcsEventType>1</ePrcsEventType>
+              <szSchdlMsgType>0</szSchdlMsgType>
+              <eSchdlMsgType>0</eSchdlMsgType>
+              <lMessageSetNbr>0</lMessageSetNbr>
+              <lMessageNbr>0</lMessageNbr>
+              <szMessageText></szMessageText>
+            </row>
+            <row>
+              <szPrcsEventType>2</szPrcsEventType>
+              <ePrcsEventType>2</ePrcsEventType>
+              <szSchdlMsgType>0</szSchdlMsgType>
+              <eSchdlMsgType>0</eSchdlMsgType>
+              <lMessageSetNbr>0</lMessageSetNbr>
+              <lMessageNbr>0</lMessageNbr>
+              <szMessageText></szMessageText>
+            </row>
+            <row>
+              <szPrcsEventType>3</szPrcsEventType>
+              <ePrcsEventType>3</ePrcsEventType>
+              <szSchdlMsgType>0</szSchdlMsgType>
+              <eSchdlMsgType>0</eSchdlMsgType>
+              <lMessageSetNbr>0</lMessageSetNbr>
+              <lMessageNbr>0</lMessageNbr>
+              <szMessageText></szMessageText>
+            </row>
+          </rowset>
+        </lpPrcsDefnMessage>
+        <nMetaCount>0</nMetaCount>
+        <lpPrcsDefnMeta>POINTER</lpPrcsDefnMeta>
+        <nPrcsDefnUrlCount>0</nPrcsDefnUrlCount>
+        <lpPrcsDefnUrlList>POINTER</lpPrcsDefnUrlList>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <nPrcsDefnRunCntlParamCount>0</nPrcsDefnRunCntlParamCount>
+        <lpPrcsDefnRunCntlParamList>POINTER</lpPrcsDefnRunCntlParamList>
+      </row>
+    </rowset>
+  </instance>
   <instance class="AEM">
     <rowset name="AemDefn" size="1072" count="1">
       <row>
-        <szLastUpdDttm>2015-11-13-13.29.23.696670</szLastUpdDttm>
+        <szLastUpdDttm>2015-11-16-13.36.11.133471</szLastUpdDttm>
         <szLastUpdOprId>W1683396</szLastUpdOprId>
         <szObjectOwnerId></szObjectOwnerId>
         <nUseCount>1</nUseCount>
         <bUseUpdate>1</bUseUpdate>
-        <lVersion>174</lVersion>
+        <lVersion>181</lVersion>
         <lSwapVersion>0</lSwapVersion>
         <nSwapNum>0</nSwapNum>
-        <szApplId>WMS_AEMAIL</szApplId>
+        <szApplId>WMS_AE_M990</szApplId>
         <szInrootelement></szInrootelement>
         <szInmsgname></szInmsgname>
         <szInmsgversion></szInmsgversion>
@@ -2565,7 +3789,7 @@
         <lpStateT> POINTER
           <rowset name="AeState" size="40" count="1">
             <row>
-              <szStateRecName>WMS_AEMAIL_AET</szStateRecName>
+              <szStateRecName>WMS_M990_AET</szStateRecName>
               <cDefaultState>Y</cDefaultState>
               <bDefaultState>1</bDefaultState>
             </row>
